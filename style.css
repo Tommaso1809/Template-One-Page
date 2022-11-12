@@ -56,6 +56,15 @@ h1,h2{
     margin: 0px;
 
 }
+
+h4{
+
+    font-family:'Bebas Neue', corsive;
+    font-size: 25px;
+    margin: 0px;
+
+
+}
 p{
 
     font-family: 'Lato', sans-serif;
@@ -95,5 +104,20 @@ p{
 .circular{
 
     border-radius: 50%;
+
+}
+
+a{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
 
 }
