@@ -6,7 +6,12 @@
     text-align: center;}
 #section1{
 
-    background-color: #ccc;
+    background-image: url(HOME.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+     height: 600px; 
+     width: 100%;
+     color: white;
 }
 
 
@@ -85,4 +90,10 @@ p{
 
     cursor: pointer;
     text-decoration: underline;
+}
+
+.circular{
+
+    border-radius: 50%;
+
 }
