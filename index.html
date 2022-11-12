@@ -4,6 +4,9 @@
 
     <head>
 
+
+        <script type="text/javascript" src=" https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +15,40 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <script type="text/javascript">
+        
+             jQuery(document).ready(function () {
+                function scrollWin(anc){
+                    target = jQuery(anc);
+                    jQuery('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+                jQuery(".menu1").click(function(){
+                    scrollWin("#section1");
+                });
+
+                jQuery(".menu2").click(function(){
+                    scrollWin("#section2");
+                });
+
+                jQuery(".menu3").click(function(){
+                    scrollWin("#section3");
+                });
+
+                jQuery(".menu4").click(function(){
+                    scrollWin("#section4");
+                });
+                jQuery(".menu5").click(function(){
+                    scrollWin("#section5");
+                });
+
+            });
+
+        
+        </script>
+
     </head>
 
 
@@ -23,11 +60,11 @@
            <div id="menu_indoor">
                 <ul>
 
-                    <li>Home Page</li>
-                    <li>Chi Siamo</li>
-                    <li>Portfolio</li>
-                    <li>Link Utili</li>
-                    <li>Contatti</li>
+                    <li class="menu1">Home Page</li>
+                    <li class="menu2">Chi Siamo</li>
+                    <li class="menu3">Portfolio</li>
+                    <li class="menu4">Link Utili</li>
+                    <li class="menu5">Contatti</li>
                 </ul>
            </div>
 

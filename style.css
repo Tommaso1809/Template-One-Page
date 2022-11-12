@@ -63,6 +63,7 @@ p{
     width: 100%;
     height: 50px;
     background-color: black;
+    position: fixed;
 }
 
 #menu ul{
@@ -83,7 +84,5 @@ p{
 #menu li:hover{
 
     cursor: pointer;
+    text-decoration: underline;
 }
-
-
-
