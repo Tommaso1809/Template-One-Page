@@ -6,12 +6,8 @@
     text-align: center;}
 #section1{
 
-    background-image: url(HOME.jpeg); 
-    background-repeat: no-repeat; 
-    background-size: cover;
-     height: 600px; 
-     width: 100%;
-     color: white;
+	 background-color: #ccc;
+
 }
 
 
@@ -101,23 +97,3 @@ p{
     text-decoration: underline;
 }
 
-.circular{
-
-    border-radius: 50%;
-
-}
-
-a{
-
-    font-family: 'Lato', sans-serif;
-    font-size: 21px;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-
-    cursor: pointer;
-    text-decoration: underline;
-
-}
